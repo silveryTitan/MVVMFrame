@@ -33,8 +33,8 @@ abstract class BaseMVVMActivity<VB : ViewDataBinding, VM : BaseViewModel>(@Layou
             bind.setVariable(initVariableId, viewModel)
         }
         initObserver()
-        initData()
         initView()
+        initData()
     }
 
     /**
